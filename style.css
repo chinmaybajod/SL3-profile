@@ -1,0 +1,213 @@
+header li 
+{
+    list-style : none;
+    display : inline-block;
+    padding : 0 20px;
+}
+
+img {
+  border: 1px solid #ddd; /* Gray border */
+  border-radius: 100%;  /* Rounded border */
+  padding: 5px; /* Some padding */
+  width: 150px; /* Set a small width */
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+nav{
+    display: flex;
+    height: 50px; /* Or whatever */
+    width: 100%;
+  }
+  
+ nav li{
+    display: inline-block;
+    justify-content:right;
+    align-items:center;
+    text-align: center;
+    width: 200px;  
+    height: 100px; 
+    margin: auto;  
+  }
+  
+  /* .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background: none;
+  } */
+  
+  .navigation {    
+    list-style: none;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items : center; 
+    justify-content: space-between;
+    
+  }
+  /* .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  } */
+    .navigation li{
+        list-style: none;
+        display:inline-block;
+        margin: 0px 20px;
+  }
+  .navigation li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .navigation a:hover::after{
+    width :100%;
+  }
+  
+  /* .navigation a:hover {
+    background: #15c0c0;
+  } */
+  button{
+    width: 400px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  span{
+    background: #009688;
+    height: 100%;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+  }
+  button :hover span{
+    width: 100%;
+  }
+  button :hover
+  {
+    border: none;
+  }
+  @media all and (max-width: 800px) {
+    .navigation {
+      justify-content: space-around;
+    }
+  }
+  
+  @media all and (max-width: 600px) {
+    .navigation {
+      flex-flow: column wrap;
+      padding: 0;
+    }
+    /* .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    } */
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+  }
+  table{
+    border: 1px solid black;
+    word-spacing: 2px;
+    padding: 2px;
+    align-items: center;
+    display: block;
+  }
+  th{
+    background-color: orange;
+    text-align: center;
+    width: 450px;
+    height:2em;
+    font-size: 2em;
+  }
+  td{
+    font-size: larger;
+    border:1px solid grey;
+  }
+  tr{
+    background-color: rgb(235, 164, 164);
+  }
+
+  #Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1{
+    text-align: center;
+    /* color: white; */
+  }
+  tr:hover{
+    background-color : rebeccapurple;
+  }
+  div{
+    text-align: center;
+  }
+  ul{
+    list-style:none;
+  }
+  strong{
+    font-size: xx-large;
+  }
+#shareicons img{
+    width:50px;
+  
+    background-color: cover;
+    background-position: center;
+
+}
+#shareicons{
+    background-image: linear-gradient(rgba(179, 48, 135, 0.75),rgba(214, 174, 64, 0.75)),url(Q1_images/background2.jpg);
+    background-color: cover;
+    background-position: center;
+}
+.banner{
+    width :100%;
+    height: 60%;
+    background-image: linear-gradient(rgba(179, 48, 135, 0.75),rgba(214, 174, 64, 0.75)),url(Q1_images/background.jpg);
+    background-color: cover;
+    background-position: center;
+}
+#Projects li{
+  font-size:x-large;
+  color: rgb(2, 2, 56);
+  line-height: 30px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Achievements li{
+  font-size:x-large;
+  line-height: 30px;
+  color: rgb(2, 2, 56);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#Contacts li{
+  font-size:x-large;
+  line-height: 30px;
+  color: rgb(2, 2, 56);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* #Start{
+    color: white;
+} */
